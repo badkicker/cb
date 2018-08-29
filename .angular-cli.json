@@ -21,7 +21,14 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "./assets/js/jquery-ui.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "./assets/js/datepicker.js",
+        "./assets/js/timepicker.js",
+        "./assets/js/cbscript.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
